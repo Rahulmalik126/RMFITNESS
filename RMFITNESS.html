@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMFITNESS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/1513056\(1\).jpg');
+        }
+        .left{
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top:16px;
+
+        }
+        .left img{
+            border-radius: 50%;
+            width: 77px;
+            height: 68px;
+        }
+        .mid{
+            display: block;
+            margin: 16px auto;
+            width: 33.33%;
+            border: 2px solid white;
+            background-color: black;
+            border-radius: 33px;
+
+        }
+        .bar{
+            display: inline-block;
+        }
+        .bar li{
+            display: inline-block;
+            padding: 4px 23px;
+        }
+        .bar li a{
+            color: white;
+            font-size: 17px;
+            text-decoration: none;
+        }
+        .right{
+            border: 2px solid white;
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top:23px;
+            padding: 5px;
+            border-radius: 33px;
+            background-color: black;
+
+        }
+        .right a{
+            font-family:cursive;
+            font-size: 17px;
+            color: white;
+            text-decoration: none;
+        }
+        .mot{
+            display: inline-block;
+            position: absolute;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            right:220px;
+            top:140px;
+            width:15%;
+            color: rgba(136, 15, 25, 0.829);
+            font-size: 70px;
+        }
+        .join{
+            border: 2px solid white;
+            width: 30%;
+            display: block;
+            background-color: black;
+            overflow: auto;
+            left: 90px;
+            top: 190px;
+            position: absolute;
+            border-radius: 15px;
+            height: 40%;
+
+        }
+        .join p{
+            text-align: center;
+        }
+        .formgroup input{
+            text-align: center;
+            display: block;
+            width: 222px;
+            padding: 5px;
+            margin: 4px auto;
+            border-radius: 6px;
+            height: 14px;
+        }
+    
+        .btn{
+            background-color: black;
+            border: 2x solid white;
+            color: white;
+            font-size: 19px;
+            font-family: cursive;
+            border-radius: 18px;
+        }
+        .join button{
+            display: block;
+            margin: auto auto;
+            width: 20%;
+            padding: 1px;
+            bottom: -13px;
+            position: relative;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/index.png" alt="RMFITNESS">
+        </div>
+        <div class="mid">
+            <ul class="bar">
+                <li><a href="RMFITNESS.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="Exercises.html">Exercises</a></li>
+                <li><a href="#">Daily status</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a href="contact.html">Contact Details</a>
+
+        </div>
+
+    </header>
+    <div class="mot">
+        <span>
+            STOP
+            WISHING
+            START
+            DOING
+        </span>
+        </div>
+    <div class="join">
+        <p>JOIN NOW</p>
+        <form action="noaction.php">
+            <div class="formgroup"><input type="text" name="" placeholder="Enter your Name"></div>
+            <div class="formgroup"><input type="integer" name="" placeholder="Enter your Age"></div>
+            <div class="formgroup"><input type="text" name="" placeholder="Enter your gender"></div>
+            <div class="formgroup"><input type="text" name="" placeholder="Enter your Locality"></div>
+            <div class="formgroup"><input type="tel" name="" placeholder="Enter your Phone Number"></div>
+            <div class="formgroup"><input type="email" name="" placeholder="Enter your Email Address"></div>
+        </form> 
+        <button class="btn" >SUBMIT</button>
+    </div>
+
+    
+</body>
+</html>
